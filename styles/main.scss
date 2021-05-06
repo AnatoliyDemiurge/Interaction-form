@@ -8,10 +8,6 @@ a{
     text-decoration: none;
 }
 
-.wrapper{
-    padding:30px;
-}
-
 .interaction-form__text{
     font-weight: 600;
     font-size: 13px;
@@ -33,163 +29,173 @@ html{
                 box-shadow: 0px 0px 30px rgba(82, 63, 105, 0.05);
                 width:50%;
                 .interaction-form__header{
-                    display:flex;
-                    align-items: center;
-                    margin-bottom:23px;
-                    .interaction-form__globe{
-                        background: #F1F3FF;
-                        border-radius: 6px;
-                        padding:14px;
-                    }
-                    .interaction-form__view{
-                        margin-left:12px;
-                        .interaction-form__link-video{
-                            display:block;
-                            font-weight: 600;
-                            font-size: 17px;
-                            line-height: 25px;
-                            color: #181C32;
-                        }
-                        .interaction-form__identification{
-                            font-weight: 600;
-                            font-size: 13px;
-                            line-height: 19px;
-                            color: #B5B5C3;
-                        }
-                    }
-                }
-                .state__wrapper{
-                    display:flex;
-                    justify-content: space-between;
-                    padding-bottom:30px;
-                    border-bottom: 2px solid #F4F7FA;
-                    .interaction-form__status{
-                        .interaction-form__text{
-                            margin-bottom:12px;
-                        }
-                        .interaction-form__button-status{
-                            background: #FFE2E5;
+                    .header__wrapper{
+                        display:flex;
+                        align-items: center;
+                        padding:5px inherit;
+                        padding:27px 30px 12px 30px;
+                        .interaction-form__globe{
+                            background: #F1F3FF;
                             border-radius: 6px;
-                            font-weight: 500;
-                            font-size: 13px;
-                            line-height: 19px;
-                            color: #F64E60;
-                            border:0px;
-                            padding:12px 10px 12px 17px;
-                            display:flex;
-                            align-items: center;
-                            .button-status__text-state{
-                                font-weight: 500;
-                                font-size: 13px;
-                                line-height: 19px;
-                                color: #F64E60;
-                                margin-left:13px;
-                            }
+                            padding:14px;
                         }
-                    }
-                    .interaction-form__dayBudget{
-                        .interaction-form__text{
-                            margin-bottom:27px;
-                        }
-                        .interaction-form__vizualization{
-                            display:flex;
-                            align-items: center;
-                            .interaction-form__scale{
-                                width:240px;
-                                height:6px;
-                                background: #F4F7FA;
-                                border-radius: 6px;
+                        .interaction-form__view{
+                            margin-left:12px;
+                            .interaction-form__link-video{
+                                display:block;
+                                font-weight: 600;
+                                font-size: 17px;
+                                line-height: 25px;
+                                color: #181C32;
                             }
-                            .interaction-form-percent{
+                            .interaction-form__identification{
                                 font-weight: 600;
                                 font-size: 13px;
                                 line-height: 19px;
                                 color: #B5B5C3;
-                                margin-left:12px;
                             }
                         }
                     }
-                    .interaction-form__time{
-                        display:flex;
-                        align-items:center;
-                        margin-top:32px;
-                        .interaction-form__clock{
-                            margin-right:9px;
-                        }
-                        .interaction-form__nubmer{
-                            font-weight: 600;
-                            font-size: 13px;
-                            line-height: 19px;
-                            color: #7E8299;
-                        }
-                    }
                 }
-                .interaction-form__indicators {
-                    padding:26px inherit;
-                    display:flex;
-                    justify-content: space-between;
-                    flex-wrap: wrap;
-                    .interaction-form__text{
-                        margin-bottom:12px;
-                    }
-                    .interaction-form__field{
-                        font-weight: 500;
-                        font-size: 13px;
-                        line-height: 19px;
-                        color: #7E8299;
-                        padding:8px 10px;
-                        border: 1px solid #F3F6F9;
-                        box-sizing: border-box;
-                        border-radius: 6px;
-                        width: 120px;
-                        height: 36px;
-                    }
-                }
-                .interaction-form__footer{
-                    border-top: 1px solid #E4E6EF;
-                    display:flex;
-                    justify-content: space-between;
-                    .interaction-form__actions{
+                .interaction-form__state{
+                    .state__wrapper{
                         display:flex;
-                        align-items: center;
-                        .interaction-form__cash{
-                            display:flex;
-                            align-items: center;
-                            margin-right:12px;
-                            background: #F3F6F9;
-                            border-radius: 6px;
-                            padding:11px 11px 9px 14px;
-                            .interaction-form__amount{
-                                margin-left:14px;
+                        justify-content: space-between;
+                        padding:12px 30px 30px 30px;    
+                        border-bottom: 2px solid #F4F7FA;
+                        .interaction-form__status{
+                            .interaction-form__text{
+                                margin-bottom:12px;
+                            }
+                            .interaction-form__button-status{
+                                background: #FFE2E5;
+                                border-radius: 6px;
                                 font-weight: 500;
+                                font-size: 13px;
+                                line-height: 19px;
+                                color: #F64E60;
+                                border:0px;
+                                padding:12px 10px 12px 17px;
+                                display:flex;
+                                align-items: center;
+                                .button-status__text-state{
+                                    font-weight: 500;
+                                    font-size: 13px;
+                                    line-height: 19px;
+                                    color: #F64E60;
+                                    margin-left:13px;
+                                }
+                            }
+                        }
+                        .interaction-form__dayBudget{
+                            .interaction-form__text{
+                                margin-bottom:27px;
+                            }
+                            .interaction-form__vizualization{
+                                display:flex;
+                                align-items: center;
+                                .interaction-form__scale{
+                                    width:240px;
+                                    height:6px;
+                                    background: #F4F7FA;
+                                    border-radius: 6px;
+                                }
+                                .interaction-form-percent{
+                                    font-weight: 600;
+                                    font-size: 13px;
+                                    line-height: 19px;
+                                    color: #B5B5C3;
+                                    margin-left:12px;
+                                }
+                            }
+                        }
+                        .interaction-form__time{
+                            display:flex;
+                            align-items:center;
+                            margin-top:32px;
+                            .interaction-form__clock{
+                                margin-right:9px;
+                            }
+                            .interaction-form__nubmer{
+                                font-weight: 600;
                                 font-size: 13px;
                                 line-height: 19px;
                                 color: #7E8299;
                             }
                         }
-                        .interaction-form__add{
-                            padding:10px;
-                            background: #F1F3FF;
-                            border: 0px;
-                            border-radius: 6px;
-                            .interaction-form__plus{
-                                width:16px;
-                                height:16px;
-                            }
-                        }
                     }
-                    .interaction-form__details{
+                }
+                .interaction-form__indicators{
+                    .interaction-form__wrapper {
+                        padding:26px 30px 36px 30px;
                         display:flex;
-                        align-items: center;
-                        padding:10px 17px 10px 14px;
-                        background: #F1F3FF;
-                        border-radius: 6px;
+                        justify-content: space-between;
+                        flex-wrap: wrap;
                         .interaction-form__text{
-                            font-weight: 600;
+                            margin-bottom:12px;
+                        }
+                        .interaction-form__field{
+                            font-weight: 500;
                             font-size: 13px;
                             line-height: 19px;
-                            color: #3445E5;
-                            margin-left:11px;
+                            color: #7E8299;
+                            padding:8px 10px;
+                            border: 1px solid #F3F6F9;
+                            box-sizing: border-box;
+                            border-radius: 6px;
+                            width: 120px;
+                            height: 36px;
+                        }
+                    }
+                }
+                .interaction-form__footer {
+                    .footer__wrapper{
+                        border-top: 1px solid #E4E6EF;
+                        display:flex;
+                        justify-content: space-between;
+                        padding:21px 30px 24px 30px;
+                        .interaction-form__actions{
+                            display:flex;
+                            align-items: center;
+                            .interaction-form__cash{
+                                display:flex;
+                                align-items: center;
+                                margin-right:12px;
+                                background: #F3F6F9;
+                                border-radius: 6px;
+                                padding:11px 11px 9px 14px;
+                                .interaction-form__amount{
+                                    margin-left:14px;
+                                    font-weight: 500;
+                                    font-size: 13px;
+                                    line-height: 19px;
+                                    color: #7E8299;
+                                }
+                            }
+                            .interaction-form__add{
+                                padding:10px;
+                                background: #F1F3FF;
+                                border: 0px;
+                                border-radius: 6px;
+                                .interaction-form__plus{
+                                    width:16px;
+                                    height:16px;
+                                }
+                            }
+                        }
+                        .interaction-form__details{
+                            display:flex;
+                            align-items: center;
+                            padding:10px 17px 10px 14px;
+                            background: #F1F3FF;
+                            border-radius: 6px;
+                            .interaction-form__text{
+                                font-weight: 600;
+                                font-size: 13px;
+                                line-height: 19px;
+                                color: #3445E5;
+                                margin-left:11px;
+                            }
                         }
                     }
                 }

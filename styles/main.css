@@ -9,10 +9,6 @@ a {
   text-decoration: none;
 }
 
-.wrapper {
-  padding: 30px;
-}
-
 .interaction-form__text {
   font-weight: 600;
   font-size: 13px;
@@ -43,27 +39,28 @@ html body .container .interaction-form {
   width: 50%;
 }
 
-html body .container .interaction-form .interaction-form__header {
+html body .container .interaction-form .interaction-form__header .header__wrapper {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin-bottom: 23px;
+  padding: 5px inherit;
+  padding: 27px 30px 12px 30px;
 }
 
-html body .container .interaction-form .interaction-form__header .interaction-form__globe {
+html body .container .interaction-form .interaction-form__header .header__wrapper .interaction-form__globe {
   background: #F1F3FF;
   border-radius: 6px;
   padding: 14px;
 }
 
-html body .container .interaction-form .interaction-form__header .interaction-form__view {
+html body .container .interaction-form .interaction-form__header .header__wrapper .interaction-form__view {
   margin-left: 12px;
 }
 
-html body .container .interaction-form .interaction-form__header .interaction-form__view .interaction-form__link-video {
+html body .container .interaction-form .interaction-form__header .header__wrapper .interaction-form__view .interaction-form__link-video {
   display: block;
   font-weight: 600;
   font-size: 17px;
@@ -71,29 +68,29 @@ html body .container .interaction-form .interaction-form__header .interaction-fo
   color: #181C32;
 }
 
-html body .container .interaction-form .interaction-form__header .interaction-form__view .interaction-form__identification {
+html body .container .interaction-form .interaction-form__header .header__wrapper .interaction-form__view .interaction-form__identification {
   font-weight: 600;
   font-size: 13px;
   line-height: 19px;
   color: #B5B5C3;
 }
 
-html body .container .interaction-form .state__wrapper {
+html body .container .interaction-form .interaction-form__state .state__wrapper {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  padding-bottom: 30px;
+  padding: 12px 30px 30px 30px;
   border-bottom: 2px solid #F4F7FA;
 }
 
-html body .container .interaction-form .state__wrapper .interaction-form__status .interaction-form__text {
+html body .container .interaction-form .interaction-form__state .state__wrapper .interaction-form__status .interaction-form__text {
   margin-bottom: 12px;
 }
 
-html body .container .interaction-form .state__wrapper .interaction-form__status .interaction-form__button-status {
+html body .container .interaction-form .interaction-form__state .state__wrapper .interaction-form__status .interaction-form__button-status {
   background: #FFE2E5;
   border-radius: 6px;
   font-weight: 500;
@@ -110,7 +107,7 @@ html body .container .interaction-form .state__wrapper .interaction-form__status
           align-items: center;
 }
 
-html body .container .interaction-form .state__wrapper .interaction-form__status .interaction-form__button-status .button-status__text-state {
+html body .container .interaction-form .interaction-form__state .state__wrapper .interaction-form__status .interaction-form__button-status .button-status__text-state {
   font-weight: 500;
   font-size: 13px;
   line-height: 19px;
@@ -118,11 +115,11 @@ html body .container .interaction-form .state__wrapper .interaction-form__status
   margin-left: 13px;
 }
 
-html body .container .interaction-form .state__wrapper .interaction-form__dayBudget .interaction-form__text {
+html body .container .interaction-form .interaction-form__state .state__wrapper .interaction-form__dayBudget .interaction-form__text {
   margin-bottom: 27px;
 }
 
-html body .container .interaction-form .state__wrapper .interaction-form__dayBudget .interaction-form__vizualization {
+html body .container .interaction-form .interaction-form__state .state__wrapper .interaction-form__dayBudget .interaction-form__vizualization {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -131,14 +128,14 @@ html body .container .interaction-form .state__wrapper .interaction-form__dayBud
           align-items: center;
 }
 
-html body .container .interaction-form .state__wrapper .interaction-form__dayBudget .interaction-form__vizualization .interaction-form__scale {
+html body .container .interaction-form .interaction-form__state .state__wrapper .interaction-form__dayBudget .interaction-form__vizualization .interaction-form__scale {
   width: 240px;
   height: 6px;
   background: #F4F7FA;
   border-radius: 6px;
 }
 
-html body .container .interaction-form .state__wrapper .interaction-form__dayBudget .interaction-form__vizualization .interaction-form-percent {
+html body .container .interaction-form .interaction-form__state .state__wrapper .interaction-form__dayBudget .interaction-form__vizualization .interaction-form-percent {
   font-weight: 600;
   font-size: 13px;
   line-height: 19px;
@@ -146,7 +143,7 @@ html body .container .interaction-form .state__wrapper .interaction-form__dayBud
   margin-left: 12px;
 }
 
-html body .container .interaction-form .state__wrapper .interaction-form__time {
+html body .container .interaction-form .interaction-form__state .state__wrapper .interaction-form__time {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -156,19 +153,19 @@ html body .container .interaction-form .state__wrapper .interaction-form__time {
   margin-top: 32px;
 }
 
-html body .container .interaction-form .state__wrapper .interaction-form__time .interaction-form__clock {
+html body .container .interaction-form .interaction-form__state .state__wrapper .interaction-form__time .interaction-form__clock {
   margin-right: 9px;
 }
 
-html body .container .interaction-form .state__wrapper .interaction-form__time .interaction-form__nubmer {
+html body .container .interaction-form .interaction-form__state .state__wrapper .interaction-form__time .interaction-form__nubmer {
   font-weight: 600;
   font-size: 13px;
   line-height: 19px;
   color: #7E8299;
 }
 
-html body .container .interaction-form .interaction-form__indicators {
-  padding: 26px inherit;
+html body .container .interaction-form .interaction-form__indicators .interaction-form__wrapper {
+  padding: 26px 30px 36px 30px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -179,11 +176,11 @@ html body .container .interaction-form .interaction-form__indicators {
       flex-wrap: wrap;
 }
 
-html body .container .interaction-form .interaction-form__indicators .interaction-form__text {
+html body .container .interaction-form .interaction-form__indicators .interaction-form__wrapper .interaction-form__text {
   margin-bottom: 12px;
 }
 
-html body .container .interaction-form .interaction-form__indicators .interaction-form__field {
+html body .container .interaction-form .interaction-form__indicators .interaction-form__wrapper .interaction-form__field {
   font-weight: 500;
   font-size: 13px;
   line-height: 19px;
@@ -197,7 +194,7 @@ html body .container .interaction-form .interaction-form__indicators .interactio
   height: 36px;
 }
 
-html body .container .interaction-form .interaction-form__footer {
+html body .container .interaction-form .interaction-form__footer .footer__wrapper {
   border-top: 1px solid #E4E6EF;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -205,9 +202,10 @@ html body .container .interaction-form .interaction-form__footer {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  padding: 21px 30px 24px 30px;
 }
 
-html body .container .interaction-form .interaction-form__footer .interaction-form__actions {
+html body .container .interaction-form .interaction-form__footer .footer__wrapper .interaction-form__actions {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -216,7 +214,7 @@ html body .container .interaction-form .interaction-form__footer .interaction-fo
           align-items: center;
 }
 
-html body .container .interaction-form .interaction-form__footer .interaction-form__actions .interaction-form__cash {
+html body .container .interaction-form .interaction-form__footer .footer__wrapper .interaction-form__actions .interaction-form__cash {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -229,7 +227,7 @@ html body .container .interaction-form .interaction-form__footer .interaction-fo
   padding: 11px 11px 9px 14px;
 }
 
-html body .container .interaction-form .interaction-form__footer .interaction-form__actions .interaction-form__cash .interaction-form__amount {
+html body .container .interaction-form .interaction-form__footer .footer__wrapper .interaction-form__actions .interaction-form__cash .interaction-form__amount {
   margin-left: 14px;
   font-weight: 500;
   font-size: 13px;
@@ -237,19 +235,19 @@ html body .container .interaction-form .interaction-form__footer .interaction-fo
   color: #7E8299;
 }
 
-html body .container .interaction-form .interaction-form__footer .interaction-form__actions .interaction-form__add {
+html body .container .interaction-form .interaction-form__footer .footer__wrapper .interaction-form__actions .interaction-form__add {
   padding: 10px;
   background: #F1F3FF;
   border: 0px;
   border-radius: 6px;
 }
 
-html body .container .interaction-form .interaction-form__footer .interaction-form__actions .interaction-form__add .interaction-form__plus {
+html body .container .interaction-form .interaction-form__footer .footer__wrapper .interaction-form__actions .interaction-form__add .interaction-form__plus {
   width: 16px;
   height: 16px;
 }
 
-html body .container .interaction-form .interaction-form__footer .interaction-form__details {
+html body .container .interaction-form .interaction-form__footer .footer__wrapper .interaction-form__details {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -261,7 +259,7 @@ html body .container .interaction-form .interaction-form__footer .interaction-fo
   border-radius: 6px;
 }
 
-html body .container .interaction-form .interaction-form__footer .interaction-form__details .interaction-form__text {
+html body .container .interaction-form .interaction-form__footer .footer__wrapper .interaction-form__details .interaction-form__text {
   font-weight: 600;
   font-size: 13px;
   line-height: 19px;
