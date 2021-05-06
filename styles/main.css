@@ -9,6 +9,10 @@ a {
   text-decoration: none;
 }
 
+.wrapper {
+  padding: 30px;
+}
+
 .interaction-form__text {
   font-weight: 600;
   font-size: 13px;
@@ -32,7 +36,6 @@ html body .interaction-form {
 }
 
 html body .interaction-form .interaction-form__wrapper {
-  padding: 30px;
   border-radius: 6px;
   background: #FFFFFF;
   -webkit-box-shadow: 0px 0px 30px rgba(82, 63, 105, 0.05);
@@ -165,7 +168,7 @@ html body .interaction-form .interaction-form__wrapper .interaction-form__state 
 }
 
 html body .interaction-form .interaction-form__wrapper .interaction-form__indicators {
-  padding: 26px 0px;
+  padding: 26px inherit;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -195,6 +198,7 @@ html body .interaction-form .interaction-form__wrapper .interaction-form__indica
 }
 
 html body .interaction-form .interaction-form__wrapper .interaction-form__footer {
+  border-top: 1px solid #E4E6EF;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
