@@ -5,21 +5,25 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel='stylesheet' href='css/main.css'>
+    <link rel='stylesheet' href='styles/main.css'>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600&display=swap" rel="stylesheet">
 </head>
 <body>
     <div class="interaction-form">
         <div class="interaction-form__wrapper">
-            <div class="interaction-form__head">
-                <div class="interaction-form__globe-wrapper">
-                    <img src="img/Earth.png" alt="picture of Earth" class="interatction-form__globe">
+            <div class="interaction-form__header">
+                <!-- <div class="interaction-form__globe-wrapper"> -->
+                    <img src="img/Earth.png" alt="picture of globe" class="interaction-form__globe">
+                <!-- </div> -->
+                <div class="interaction-form__view">
+                    <a href="#" class="interaction-form__link-video">
+                        Просмотр видео #3592095
+                    </a>
+                    <span class="interaction-form__identification">
+                        #3592095
+                    </span>
                 </div>
-                <a href="#" class="interaction-form__view">
-                    Просмотр видео #3592095
-                </a>
-                <span class="interaction-form__number">
-                    #3592095
-                </span>
             </div>
             <div class="interaction-form__state">
                 <div class="interaction-form__status">
@@ -27,8 +31,8 @@
                         Статус
                     </p>
                     <button class="interaction-form__button-status">
-                        <img src="img/icons/status-stop.png" alt="" class="button-status__icon">
-                        <span class="button-status__text">
+                        <img src="img/icons/status-stop.png" alt="" class="interaction-form__icon-status">
+                        <span class="button-status__text-state">
                             Остановлено
                         </span>
                     </button>
@@ -38,7 +42,7 @@
                         Суточный бюджет
                     </p>
                     <div class="interaction-form__vizualization">
-                        <div class="interaction-form-scale">
+                        <div class="interaction-form__scale">
 
                         </div>
                         <span class="interaction-form-percent">
@@ -77,24 +81,21 @@
                     <input value = '211' type="text" class="interaction-form__field interaction-form__field-treks">
                 </div>
             </div>
-        </div>
-        <div class="interaction-form__line-big">
-
-        </div>
-        <div class="interaction-form__footer">
-            <div class="interaction--form__actions">
-                <a href='#' class="interaction-form__cash">
-                    <img src="img/icons/Wallet.png" alt="" class="interaction-form__vallet">
-                    <span class="interaction-form__amount">1000.4 руб.</span>
+            <div class="interaction-form__footer">
+                <div class="interaction--form__actions">
+                    <a href='#' class="interaction-form__cash">
+                        <img src="img/icons/Wallet.png" alt="" class="interaction-form__vallet">
+                        <span class="interaction-form__amount">1000.4 руб.</span>
+                    </a>
+                    <button class="interaction-form__add">
+                        <img src="img/icons/Plus.png" alt="icon of plus" class="interaction-form__plus">
+                    </button>
+                </div>
+                <a href='#' class="interaction-form__details">
+                    <img src="img/icons/graph.png" alt="icon of graph" class="interaction-form__graph">
+                    <span class='details__text'>Детали</span>
                 </a>
-                <button class="interaction-form__add">
-                    <img src="img/icons/Plus.png" alt="icon of plus" class="interaction-form__plus">
-                </button>
             </div>
-            <a href='#' class="interaction-form__details">
-                <img src="img/icons/graph.png" alt="icon of graph" class="interaction-form__graph">
-                <span class='details__text'>Детали</span>
-            </a>
         </div>
     </div>
 </body>
