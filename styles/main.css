@@ -75,6 +75,10 @@ html body .container .interaction-form .interaction-form__header .header__wrappe
   color: #B5B5C3;
 }
 
+html body .container .interaction-form .interaction-form__state {
+  padding: 0px 30px 0px 30px;
+}
+
 html body .container .interaction-form .interaction-form__state .state__wrapper {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -82,7 +86,7 @@ html body .container .interaction-form .interaction-form__state .state__wrapper 
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  padding: 12px 30px 30px 30px;
+  padding: 23px 0px 30px 0px;
   border-bottom: 2px solid #F4F7FA;
 }
 
