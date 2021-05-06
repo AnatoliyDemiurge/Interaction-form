@@ -22,13 +22,12 @@ a{
 html{
     font-family: 'Poppins', sans-serif;
     body{
-        .interaction-form{
+        .container{
             display:flex;
             justify-content: center;
             padding:28px;
             background: #E5E5E5;
-            .interaction-form__wrapper{
-                
+            .interaction-form{
                 border-radius: 6px;
                 background: #FFFFFF;
                 box-shadow: 0px 0px 30px rgba(82, 63, 105, 0.05);
@@ -59,7 +58,7 @@ html{
                         }
                     }
                 }
-                .interaction-form__state{
+                .state__wrapper{
                     display:flex;
                     justify-content: space-between;
                     padding-bottom:30px;
