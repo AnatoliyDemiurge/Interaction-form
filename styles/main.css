@@ -68,6 +68,12 @@ html body .container .interaction-form .interaction-form__header .header__wrappe
   color: #181C32;
 }
 
+html body .container .interaction-form .interaction-form__header .header__wrapper .interaction-form__view .interaction-form__link-video:hover {
+  color: #3445E5;
+  -webkit-transition: .2s all linear;
+  transition: .2s all linear;
+}
+
 html body .container .interaction-form .interaction-form__header .header__wrapper .interaction-form__view .interaction-form__identification {
   font-weight: 600;
   font-size: 13px;
@@ -136,6 +142,19 @@ html body .container .interaction-form .interaction-form__state .state__wrapper 
   width: 240px;
   height: 6px;
   background: #F4F7FA;
+  border-radius: 6px;
+  position: relative;
+}
+
+html body .container .interaction-form .interaction-form__state .state__wrapper .interaction-form__dayBudget .interaction-form__vizualization .interaction-form__scale::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 999;
+  width: 122px;
+  height: 6px;
+  background: #3445E5;
   border-radius: 6px;
 }
 
@@ -228,7 +247,12 @@ html body .container .interaction-form .interaction-form__footer .footer__wrappe
   margin-right: 12px;
   background: #F3F6F9;
   border-radius: 6px;
-  padding: 11px 11px 9px 14px;
+  padding: 9px 11px 4px 14px;
+}
+
+html body .container .interaction-form .interaction-form__footer .footer__wrapper .interaction-form__actions .interaction-form__cash .interaction-form__vallet {
+  width: 24px;
+  height: 24px;
 }
 
 html body .container .interaction-form .interaction-form__footer .footer__wrapper .interaction-form__actions .interaction-form__cash .interaction-form__amount {
@@ -240,34 +264,53 @@ html body .container .interaction-form .interaction-form__footer .footer__wrappe
 }
 
 html body .container .interaction-form .interaction-form__footer .footer__wrapper .interaction-form__actions .interaction-form__add {
-  padding: 10px;
-  background: #F1F3FF;
+  height: 36px;
+  width: 36px;
+  background-color: #F1F3FF;
   border: 0px;
   border-radius: 6px;
+  background-image: url("../img/icons/plus.png");
+  background-repeat: no-repeat;
+  background-position: center center;
 }
 
-html body .container .interaction-form .interaction-form__footer .footer__wrapper .interaction-form__actions .interaction-form__add .interaction-form__plus {
-  width: 16px;
-  height: 16px;
+html body .container .interaction-form .interaction-form__footer .footer__wrapper .interaction-form__actions .interaction-form__add:hover {
+  cursor: pointer;
+  -webkit-transition: .3s;
+  transition: .3s;
+  background-color: #3445E5;
+  background-image: url("../img/icons/Plus-hover.png");
+  background-repeat: no-repeat;
+  background-position: center center;
 }
 
 html body .container .interaction-form .interaction-form__footer .footer__wrapper .interaction-form__details {
+  background-image: url("../img/icons/graph.png");
+  background-repeat: no-repeat;
+  background-position: 14px center;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  padding: 10px 17px 10px 14px;
-  background: #F1F3FF;
+  background-color: #F1F3FF;
   border-radius: 6px;
-}
-
-html body .container .interaction-form .interaction-form__footer .footer__wrapper .interaction-form__details .interaction-form__text {
   font-weight: 600;
   font-size: 13px;
   line-height: 19px;
   color: #3445E5;
-  margin-left: 11px;
+  padding: 12px 10px 10px 45px;
+  text-transform: uppercase;
+}
+
+html body .container .interaction-form .interaction-form__footer .footer__wrapper .interaction-form__details:hover {
+  background: #3445E5;
+  color: white;
+  -webkit-transition: .3s;
+  transition: .3s;
+  background-image: url(../img/icons/graph-hover.png);
+  background-repeat: no-repeat;
+  background-position: 14px center;
 }
 /*# sourceMappingURL=main.css.map */

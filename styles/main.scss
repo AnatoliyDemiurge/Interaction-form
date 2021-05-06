@@ -47,6 +47,10 @@ html{
                                 font-size: 17px;
                                 line-height: 25px;
                                 color: #181C32;
+                                &:hover{
+                                    color: #3445E5;
+                                    transition:.2s all linear;
+                                }
                             }
                             .interaction-form__identification{
                                 font-weight: 600;
@@ -100,8 +104,17 @@ html{
                                     height:6px;
                                     background: #F4F7FA;
                                     border-radius: 6px;
+                                    position:relative;
                                     &::after{
-                                        
+                                        content:'';
+                                        position:absolute;
+                                        top:0;
+                                        left:0;
+                                        z-index:999;
+                                        width:122px;
+                                        height:6px;
+                                        background: #3445E5;
+                                        border-radius: 6px;
                                     }
                                 }
                                 .interaction-form-percent{
@@ -167,7 +180,11 @@ html{
                                 margin-right:12px;
                                 background: #F3F6F9;
                                 border-radius: 6px;
-                                padding:11px 11px 9px 14px;
+                                padding:9px 11px 4px 14px;
+                                .interaction-form__vallet{
+                                    width:24px;
+                                    height:24px;
+                                }
                                 .interaction-form__amount{
                                     margin-left:14px;
                                     font-weight: 500;
@@ -177,28 +194,45 @@ html{
                                 }
                             }
                             .interaction-form__add{
-                                padding:10px;
-                                background: #F1F3FF;
+                                height:36px;
+                                width:36px;
+                                background-color: #F1F3FF;
                                 border: 0px;
                                 border-radius: 6px;
-                                .interaction-form__plus{
-                                    width:16px;
-                                    height:16px;
+                                background-image: url('../img/icons/plus.png');
+                                background-repeat: no-repeat;
+                                background-position: center center;
+                                &:hover{
+                                    cursor: pointer;
+                                    transition: .3s;
+                                    background-color: #3445E5;
+                                    background-image: url('../img/icons/Plus-hover.png');
+                                    background-repeat: no-repeat;
+                                    background-position: center center;
                                 }
                             }
                         }
                         .interaction-form__details{
+                            background-image:url('../img/icons/graph.png');
+                            background-repeat: no-repeat;
+                            background-position: 14px center;
                             display:flex;
                             align-items: center;
-                            padding:10px 17px 10px 14px;
-                            background: #F1F3FF;
+                            background-color: #F1F3FF;
                             border-radius: 6px;
-                            .interaction-form__text{
-                                font-weight: 600;
-                                font-size: 13px;
-                                line-height: 19px;
-                                color: #3445E5;
-                                margin-left:11px;
+                            font-weight: 600;
+                            font-size: 13px;
+                            line-height: 19px;
+                            color: #3445E5;
+                            padding:12px 10px 10px 45px;
+                            text-transform: uppercase;
+                            &:hover{
+                                background: #3445E5;
+                                color:white;
+                                transition: .3s;
+                                background-image: url(../img/icons/graph-hover.png);
+                                background-repeat: no-repeat;
+                                background-position: 14px center;
                             }
                         }
                     }
