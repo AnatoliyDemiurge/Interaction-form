@@ -100,6 +100,9 @@ html{
                                     height:6px;
                                     background: #F4F7FA;
                                     border-radius: 6px;
+                                    &::after{
+                                        
+                                    }
                                 }
                                 .interaction-form-percent{
                                     font-weight: 600;
