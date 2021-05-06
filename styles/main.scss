@@ -72,7 +72,7 @@ html{
                             line-height: 19px;
                             color: #F64E60;
                             border:0px;
-                            padding:12px 17px;
+                            padding:12px 10px 12px 17px;
                             display:flex;
                             align-items: center;
                             .button-status__text-state{
@@ -111,8 +111,6 @@ html{
                         align-items:center;
                         margin-top:32px;
                         .interaction-form__clock{
-                            width:18px;
-                            height:18px;
                             margin-right:9px;
                         }
                         .interaction-form__nubmer{
@@ -120,6 +118,75 @@ html{
                             font-size: 13px;
                             line-height: 19px;
                             color: #7E8299;
+                        }
+                    }
+                }
+                .interaction-form__indicators {
+                    padding:26px 0px;
+                    display:flex;
+                    justify-content: space-between;
+                    flex-wrap: wrap;
+                    .interaction-form__text{
+                        margin-bottom:12px;
+                    }
+                    .interaction-form__field{
+                        font-weight: 500;
+                        font-size: 13px;
+                        line-height: 19px;
+                        color: #7E8299;
+                        padding:8px 10px;
+                        border: 1px solid #F3F6F9;
+                        box-sizing: border-box;
+                        border-radius: 6px;
+                        width: 120px;
+                        height: 36px;
+                    }
+                }
+                .interaction-form__footer{
+                    
+                    display:flex;
+                    justify-content: space-between;
+                    .interaction-form__actions{
+                        display:flex;
+                        align-items: center;
+                        .interaction-form__cash{
+                            display:flex;
+                            align-items: center;
+                            margin-right:12px;
+                            background: #F3F6F9;
+                            border-radius: 6px;
+                            padding:11px 11px 9px 14px;
+                            .interaction-form__amount{
+                                margin-left:14px;
+                                font-weight: 500;
+                                font-size: 13px;
+                                line-height: 19px;
+                                color: #7E8299;
+                            }
+                        }
+                        .interaction-form__add{
+                            padding:10px;
+                            background: #F1F3FF;
+                            border: 0px;
+                            border-radius: 6px;
+                            .interaction-form__plus{
+                                width:16px;
+                                height:16px;
+                            }
+                        }
+                    }
+                    .interaction-form__details{
+                        display:flex;
+                        align-items: center;
+                        padding:10px 17px 10px 14px;
+                        background: #F1F3FF;
+                        border-radius: 6px;
+                        .interaction-form__text{
+                            font-weight: 600;
+                            font-size: 13px;
+                            line-height: 19px;
+                            color: #3445E5;
+                            margin-left:11px;
                         }
                     }
                 }
